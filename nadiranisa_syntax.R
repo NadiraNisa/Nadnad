@@ -35,5 +35,5 @@ atlas_conn <- mongo(
   url        = Sys.getenv("ATLAS_URL")
 )
 
-atlas_conn$insert(rilis6)
+atlas_conn$insert(rilis6[sample(20,nrow(rilis6),replace=F),])
 rm(atlas_conn)
