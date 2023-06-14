@@ -11,7 +11,7 @@ rilfilm<-film %>% html_nodes("table") %>% html_table()
 rilis<-as.data.frame(rilfilm[[1]])
 rilis=rilis[,-c(4,5)]
 rilis[rilis==""]<-NA
-rilis[rowSums(is.na(rilis)) != ncol(rilis), ]
+rilis=rilis[rowSums(is.na(rilis)) != ncol(rilis), ]
 colnames(rilis)<-c("X1","X2","X3")
 rilis2 <- rilis %>%
   mutate(new_movie = X2) %>% 
