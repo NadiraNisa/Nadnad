@@ -48,8 +48,7 @@ Package Tidyverse merupakan paket yang berfungsi untuk melakukan pengolahan data
 - mongolite
 
 
-Package mongolite digunakan untuk memperoleh data dari mongoDB yang kemudian akan dilakukan proses pengolahan data.
-
+Package mongolite digunakan untuk menghubungkan Rstudio dengan MongoDb
 
   
 </div>
