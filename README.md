@@ -7,8 +7,8 @@
 # **Visualiasi Data Release Movie**
 
 • [Pendahuluan](#memo-Pendahuluan)
+• [Package](#computer-Package) 
 • [Dokumen](#camera_flash-Dokumen)
-• [Visualisasi](#video_camera-Visualisasi)
 • [Pengembang](#girl-Pengembang)
   
 </div>
@@ -16,14 +16,20 @@
 
 ## :memo: **Pendahuluan**
 <div align="justify">
-  Menurut Hiawan Pratista (2008), film adalah media audio visual yang menggabungkan kedua unsur, yaitu naratif dan sinematik. Unsur naratif berhubungan dengan tema sedangkan unsur sinematik merupakan alur atau jalan ceritanya yang runtun dari awal hingga akhir. Film sendiri memiliki definisi sebagai sebuah medium komunikasi audio visual yang tak hanya memberikan hiburan, tapi juga menawarkan informasi, dan bahkan bisa menyentuh emosi penontonnya.
-
-
-  Dalam pembuatan film harus melalui berbagai proses seperti pemikiran dan proses teknis, dalam pencarian ide dan gagasan cerita. Sedangkan proses teknisnya berupa keterampilan artistik untuk mewujudkan segala ide, gagasan atau cerita agar menjadi film yang siap dinikmati. Berbagai jenis genre film yang telah dikembangkan contohnya seperti komedi, romantis, fiksi, horor, action, petualangan, dokumenter dan masih banyak lagi.
+  Menurut Hiawan Pratista (2008), film adalah media audio visual yang menggabungkan kedua unsur, yaitu naratif dan sinematik. Unsur naratif berhubungan dengan tema sedangkan unsur sinematik merupakan alur atau jalan ceritanya yang runtun dari awal hingga akhir. Film sendiri memiliki definisi sebagai sebuah medium komunikasi audio visual yang tak hanya memberikan hiburan, tapi juga menawarkan informasi, dan bahkan bisa menyentuh emosi penontonnya. Dalam pembuatan film harus melalui berbagai proses seperti pemikiran dan proses teknis, dalam pencarian ide dan gagasan cerita. Berbagai jenis genre film yang telah dikembangkan contohnya seperti komedi, romantis, fiksi, horor, action, petualangan, dokumenter dan masih banyak lagi.
 
   Data release film ini berasal dari website https://www.the-numbers.com/movies/release-schedule, website tersebut dapat dijadikan referensi untuk dapat mengetahui kapan dan film apa yang akan di release.
 
 </div>
+
+
+## :computer: **Package**
+Package yang digunakan dalam melakukan scraping data tabel seperti nama film, tangga rilis, hingga distributor film menggunakan:
+
+<img width="291" alt="package" src="https://github.com/NadiraNisa/Nadnad/assets/111562803/b40e0001-959c-4367-aa47-e61f21c0dd59">
+
+
+
 
 ## :camera_flash: **Dokumen**
 Contoh Dokumen pada MongoDb:
@@ -36,9 +42,6 @@ Contoh Dokumen pada MongoDb:
 "new_distributor":"Fathom Events"
 }
 ```
-
-## :video_camera: **Visualisasi**
-Berikut link visualiasi 
 
 ## :girl: **Pengembang**
 Nadira Nisa Alwani (G1501222048)
