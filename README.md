@@ -29,6 +29,8 @@
 <div align="justify">
 Package yang digunakan dalam melakukan scraping data tabel seperti nama film, tanggal rilis, hingga distributor film menggunakan:
 
+
+
 <img width="291" alt="package" src="https://github.com/NadiraNisa/Nadnad/assets/111562803/b40e0001-959c-4367-aa47-e61f21c0dd59">
 
 
